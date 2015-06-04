@@ -55,22 +55,55 @@ var Dog = function() {
     this.happy = function() {
         this.status = ('happy' !== undefined) ? 'happy' : 'normal';
     };
-
-
-    var Human = function() {
-        var petLover = petLover || {};
-
-        this.cool = (true !== undefined) ? 'cool' : false;
-        this.owner = 'owner';
-        this.status = 'happy';
-        this.feed = function() {
-            this.status = (true !== undefined) ? status : 'normal';
-            this.status = (true !== undefined) ? status : 'normal';
-        };
-
-
-    };
 };
+var Human = function() {
+    var petLover = petLover || {};
+    this.name = 'name';
+    this.status = (true !== undefined) ? 'cool' : true;
+};
+
+// console.dir(Human);
+
+//     var Human = function() {
+//         var petLover = petLover || {};
+
+//         this.name = 'name';
+//         this.status = (true !== undefined) ? 'cool' : true;
+// //     };
+//     console.dir(Human);
+
+
+
+
+
+// };
+// var petLover = new Human();
+// console.dir(petLover);
+// console.dir(petLover);
+
+
+// var petLover1 = function() {
+//     this.name = 'Mason';
+//     this.cool = function() {
+
+//         this.status = (true !== undefined) ? 'cool' : true;
+//     };
+
+
+
+
+
+//         this.cool = (true !== undefined) ? 'cool' : false;
+//         this.owner = 'owner';
+//         this.status = 'happy';
+//         this.feed = function() {
+//             this.status = (true !== undefined) ? status : 'normal';
+//             this.status = (true !== undefined) ? status : 'normal';
+//         };
+
+
+// };
+// };
 
 //        __
 //   ____/ /___  ____ ______
